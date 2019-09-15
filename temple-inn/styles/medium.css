@@ -1,0 +1,60 @@
+@media screen and (min-width: 650px) {
+    
+    div.temple-icon {
+        display: contents;
+    }
+    div.temple-icon img {
+        width: 60px;
+    }
+    body header {
+        grid-template-columns: 1fr 3.5fr 1fr;
+        align-items: center;
+        justify-items: center;
+        padding: 1em;
+    }
+    div.space {
+        padding: 0 0 1em;
+    }
+
+    nav#menu ul {
+        margin: 0 0 0 70%;
+    }
+    
+    div.temple-image {
+        max-width: 600px;
+        margin: 0 auto;
+    }
+
+    div.services-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    div.thanks,
+    main form {
+        max-width: 650px;
+        margin: 0 auto;
+    }
+    div.contact {
+        display: grid;
+        grid-template-columns: 50px 1fr 50px;
+    }
+    div.contact div.address,
+    div.contact iframe,
+    div.contact form {
+        grid-area: 1 / 2 / 2 / 3;
+    }
+    div.contact map-left {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+    div.contact map-right {
+        grid-area: 1 / 3 / 2 / 4;
+    }
+    div.map-left button,
+    div.map-right button {
+        border-radius: 10px;
+        height: 100%;
+    }
+    div.contact div.book {
+        grid-area: 3 / 2 / 4 / 3;
+    }
+}
